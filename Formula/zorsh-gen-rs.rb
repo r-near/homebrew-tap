@@ -1,25 +1,25 @@
 class ZorshGenRs < Formula
   desc "Zorsh generator for Rust"
   homepage "https://zorsh.dev"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.3/zorsh-gen-rs-aarch64-apple-darwin.tar.xz"
-      sha256 "33a25133bdaa1139ec8c15250f1739754fbc81e66b9744bd8867d4a48a2139d7"
+      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.4/zorsh-gen-rs-aarch64-apple-darwin.tar.xz"
+      sha256 "2d83648226a2fa5114bd732273809a178e39cd3a331d4b5bbc464225fb030aa2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.3/zorsh-gen-rs-x86_64-apple-darwin.tar.xz"
-      sha256 "d6abe556815b8d299ac9de0728a737f7570bfa2042527a5c3902cac9f9eb501d"
+      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.4/zorsh-gen-rs-x86_64-apple-darwin.tar.xz"
+      sha256 "4a9cbab2d69ddd4458ee147c926698c36114cccca50244fa03940e2644e438e7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.3/zorsh-gen-rs-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "58f57cf6b4fc9f67cf08f8eb285580da29fb74f4d016c4310f83d329ee67ba67"
+      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.4/zorsh-gen-rs-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0737915cf97c2a5e8e4bc1ad9912429cd0536a1d06a38bceece9c50a8eac6baf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.3/zorsh-gen-rs-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ac8009c121c6862a58105e7eeb7458f95b3de58c987399bc2a11625c6245ec7d"
+      url "https://github.com/r-near/zorsh-gen-rs/releases/download/v0.1.4/zorsh-gen-rs-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c5490b2461ac62fe29d2c5eee22240a0ca21918fff99bd84d6becd236a00ba63"
     end
   end
   license "MIT"
